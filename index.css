@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#gameBox{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+    overflow: hidden;
+}
+#userScore, #aiScore{
+    color : rgb(229, 15, 29);
+    font-size: 70px;
+    position: absolute;
+    top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#userScore{
+    left:40%
+}
+#aiScore{
+    right: 40%
+}
+.dashedLineVertical{
+    border-left: 3px dashed rgb(136, 234, 67);
+    position: absolute;
+    top: 10;
+    left: 50%;
+    width: 1px;
+    height: 100%; 
+    transform: translateX(-50%);
+}.userPaddle{
+    background-color: rgb(102, 0, 255);
+    width: 20px;
+    height: 100px;
+    left: 5px;
+    top:50%;
+    position: absolute;
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+.aiPaddle{
+    background-color: rgb(238, 93, 9);
+    width: 20px;
+    height: 100px;
+    right: 5px;
+    top:50%;
+    position: absolute;
+    border-radius: 10px;
+    transform: translateY(-50%);
+}
+.ball{
+    background-color: rgb(219, 227, 219);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+}
