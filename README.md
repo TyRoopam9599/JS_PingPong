@@ -14,4 +14,7 @@ The game can be played by opening the `index.html` file in your browser. Use the
 The game uses JavaScript for game logic and HTML5 canvas for rendering. The game's physics are implemented using basic vector math.
 
 ## Demo
-![](https://github.com/TyRoopam9599/JS_Ping_Pong/blob/main/Demo/Ping_Pong.gif)
+<p align="center"><img align="center" alt="gif" src="https://github.com/TyRoopam9599/JS_Ping_Pong/blob/main/Demo/Ping_Pong.gif" width="450" height="350" /></p>
+
+## Contributions
+All contributions are welcome. Please submit any pull requests or issues to the GitHub repository.
