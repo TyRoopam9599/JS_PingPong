@@ -8,28 +8,28 @@
     background-color: black;
     overflow: hidden;
 }
-#userScore, #aiScore{
-    color : rgb(229, 15, 29);
+#player1Score, #player2Score{
+    color : rgb(79, 92, 234);
     font-size: 70px;
     position: absolute;
     top: 12px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#userScore{
-    left:40%
+#player1Score{
+    left:30%;
 }
-#aiScore{
-    right: 40%
+#player2Score{
+    right: 30%
 }
 .dashedLineVertical{
-    border-left: 3px dashed rgb(136, 234, 67);
+    border-left: 3px dashed rgb(232, 240, 80);
     position: absolute;
     top: 10;
     left: 50%;
     width: 1px;
     height: 100%; 
     transform: translateX(-50%);
-}.userPaddle{
+}.player1Paddle{
     background-color: rgb(102, 0, 255);
     width: 20px;
     height: 100px;
@@ -39,7 +39,7 @@
     border-radius: 10px;
     transform: translateY(-50%);
 }
-.aiPaddle{
+.player2Paddle{
     background-color: rgb(238, 93, 9);
     width: 20px;
     height: 100px;
